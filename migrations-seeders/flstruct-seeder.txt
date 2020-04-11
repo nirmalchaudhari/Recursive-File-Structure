@@ -1,0 +1,111 @@
+[
+    {
+        "name": "C:",
+        "type": "Drive",
+        "parentId": 0,
+        "path": "C:\\"
+    },
+    {
+        "name": "Documents",
+        "type": "Directory",
+        "parentId": 1,
+        "path": "C:\\Documents"
+    },
+    {
+        "name": "Images",
+        "type": "Directory",
+        "parentId": 2,
+        "path": "C:\\Documents\\Images"
+    },
+    {
+        "name": "Image1.jpg",
+        "type": "File",
+        "parentId": 3,
+        "path": "C:\\Documents\\Images\\Image1.jpg"
+    },
+    {
+        "name": "Image2.jpg",
+        "type": "File",
+        "parentId": 3,
+        "path": "C:\\Documents\\Images\\Image2.jpg"
+    },
+    {
+        "name": "Image3.jpg",
+        "type": "File",
+        "parentId": 3,
+        "path": "C:\\Documents\\Images\\Image3.jpg"
+    },
+    {
+        "name": "Works",
+        "type": "Directory",
+        "parentId": 2,
+        "path": "C:\\Documents\\Works"
+    },
+    {
+        "name": "Letter.doc",
+        "type": "File",
+        "parentId": 7,
+        "path": "C:\\Documents\\Works\\Letter.doc"
+    },
+    {
+        "name": "Accountatnts",
+        "type": "Directory",
+        "parentId": 7,
+        "path": "C:\\Documents\\Works\\Accountatnts"
+    },
+    {
+        "name": "Accounting.xls",
+        "type": "File",
+        "parentId": 9,
+        "path": "C:\\Documents\\Works\\Accountatnts\\Accounting.xls"
+    },
+    {
+        "name": "AnnualReports.xls",
+        "type": "File",
+        "parentId": 9,
+        "path": "C:\\Documents\\Works\\AnnualReports.xls"
+    },
+    {
+        "name": "Program Files",
+        "type": "Directory",
+        "parentId": 1,
+        "path": "C:\\Program Files"
+    },
+    {
+        "name": "Skype",
+        "type": "Directory",
+        "parentId": 12,
+        "path": "C:\\Program Files\\Skype"
+    },
+    {
+        "name": "Skype.exe",
+        "type": "File",
+        "parentId": 13,
+        "path": "C:\\Program Files\\Skype\\Skype.exe"
+    },
+    {
+        "name": "Readme.txt",
+        "type": "File",
+        "parentId": 13,
+        "path": "C:\\Program Files\\Skype\\Readme.txt"
+    },
+    {
+        "name": "Mysql",
+        "type": "Directory",
+        "parentId": 12,
+        "path": "C:\\Program Files\\Mysql"
+    },
+    {
+        "name": "Mysql.exe",
+        "type": "File",
+        "parentId": 17,
+        "path": "C:\\Program Files\\Mysql\\Mysql.exe"
+    },
+    {
+        "name": "Mysql.com",
+        "type": "File",
+        "parentId": 17,
+        "path": "C:\\Program Files\\Mysql\\Mysql.com"
+    }
+
+]

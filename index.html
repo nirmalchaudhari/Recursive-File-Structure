@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search Like File</title>
+    </head>
+    <script>
+        function searchBtn() {
+            const textSearch = document.querySelector("#txtSearch");
+            if (textSearch.value === "") {
+                alert("Enter Search Text");
+                return;
+            }
+            let xhttp;
+            if (window.XMLHttpRequest) {
+                // code for modern browsers
+                xhttp = new XMLHttpRequest();
+            } else {
+                // code for old IE browsers
+                xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }            
+            const url = `index.php?search=${textSearch.value}`;
+            xhttp.onreadystatechange = function() {
+                if (this.status === 200) {
+                    const result = document.querySelector("#result");
+                    result.innerHTML = this.response;
+                }
+            };
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }
+    </script>
+    <style>
+        body{
+            background: #f2f2f2;        
+        }
+
+        .input input {            
+            width: 50%;
+            display: inline-table;
+            border-radius: 31px;
+            border: none;
+            font-weight: 400;
+            padding-left: 10px;
+            font-size:18px;
+            height: 50px;
+        }
+
+        .input button {
+            width: 200px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 10px;
+            background: #827ffe;
+            color: white;
+            height: 50px;            
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <body>
+            <div class="container">
+                <div class="input">
+                    <input type="text" id="txtSearch" placeholder="Search File,Directory, etc.."/>
+                    <button onclick="searchBtn();">Search</button>
+                </div>
+                <div id="result">
+
+                </div>          
+            </div>
+        </body>
+    </body>
+</html>
