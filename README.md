@@ -1,15 +1,15 @@
 # Recursive-File-Structure
 
-Search Web App Documents.
+Search Web App Documents.<br />
 
-1) Step to Install
-	1.1 Create database "flstrcture" & run below query
+1) Step to Install<br />
+	1.1 Create database "flstrcture" & run below query<br />
 		CREATE TABLE `migseed` (
   			`name` varchar(100) NOT NULL
-		) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-	1.2 Open config file set your database configuration for mysql. 
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4; <br />
+	1.2 Open config file set your database configuration for mysql. <br />
 
-2) Why it’s fast in search and useful.
+2) Why it’s fast in search and useful.<br />
 Here we are storing path like when we read property of object like file and directory we always look the path. Its going to take time for edit and insert because we have to take parent and its path and concatenate it. But now days storage are easily available and not cost too much. So path variable is easy to search the path in list for our solution.
 
 Even though we haven’t used any third party library and even we are using db.php file for core functions and no jquery or extra css is used.
